@@ -9,21 +9,65 @@
 /* Begin PBXBuildFile section */
 		2819CA29263B4D89004CD166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA28263B4D89004CD166 /* AppDelegate.swift */; };
 		2819CA2B263B4D89004CD166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA2A263B4D89004CD166 /* SceneDelegate.swift */; };
-		2819CA2D263B4D89004CD166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA2C263B4D89004CD166 /* ViewController.swift */; };
-		2819CA30263B4D89004CD166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA2E263B4D89004CD166 /* Main.storyboard */; };
+		2819CA30263B4D89004CD166 /* VersionHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA2E263B4D89004CD166 /* VersionHistory.storyboard */; };
 		2819CA32263B4D8A004CD166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA31263B4D8A004CD166 /* Assets.xcassets */; };
 		2819CA35263B4D8A004CD166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA33263B4D8A004CD166 /* LaunchScreen.storyboard */; };
+		2819CA44263B4F26004CD166 /* VersionInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA43263B4F26004CD166 /* VersionInfoApi.swift */; };
+		2819CA47263B501D004CD166 /* VersionInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA46263B501D004CD166 /* VersionInfoService.swift */; };
+		2819CA4A263B53A8004CD166 /* VersionHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA49263B53A8004CD166 /* VersionHistoryController.swift */; };
+		2819CA4E263B5B23004CD166 /* macos.json in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA4D263B5B23004CD166 /* macos.json */; };
+		2819CA51263B5C3A004CD166 /* VersionHistoryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA50263B5C3A004CD166 /* VersionHistoryApi.swift */; };
+		286C11492640401F00612168 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C11482640401F00612168 /* CommonUtils.swift */; };
+		288D947626406B8E0077B711 /* Sierra_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946926406B8D0077B711 /* Sierra_logo.png */; };
+		288D947726406B8E0077B711 /* Lion_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946A26406B8D0077B711 /* Lion_logo.png */; };
+		288D947826406B8E0077B711 /* HighSierra_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946B26406B8E0077B711 /* HighSierra_logo.png */; };
+		288D947926406B8E0077B711 /* ElCapitan_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946C26406B8E0077B711 /* ElCapitan_logo.png */; };
+		288D947A26406B8E0077B711 /* Mojave_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946D26406B8E0077B711 /* Mojave_logo.png */; };
+		288D947B26406B8E0077B711 /* Mavericks_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946E26406B8E0077B711 /* Mavericks_logo.png */; };
+		288D947C26406B8E0077B711 /* SnowLeopard_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D946F26406B8E0077B711 /* SnowLeopard_logo.png */; };
+		288D947D26406B8E0077B711 /* Panther_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947026406B8E0077B711 /* Panther_logo.png */; };
+		288D947E26406B8E0077B711 /* MountainLion_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947126406B8E0077B711 /* MountainLion_logo.png */; };
+		288D947F26406B8E0077B711 /* Yosemite_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947226406B8E0077B711 /* Yosemite_logo.png */; };
+		288D948026406B8E0077B711 /* Tiger_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947326406B8E0077B711 /* Tiger_logo.png */; };
+		288D948126406B8E0077B711 /* Leopard_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947426406B8E0077B711 /* Leopard_logo.png */; };
+		288D948226406B8E0077B711 /* Catalina_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947526406B8E0077B711 /* Catalina_logo.png */; };
+		289DFB5F264071E700D5FBC8 /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DFB5E264071E700D5FBC8 /* VersionInfo.swift */; };
+		289DFB65264088DD00D5FBC8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DFB64264088DD00D5FBC8 /* ImageViewController.swift */; };
+		C8470A372D415223A3176B4D /* Pods_MvcExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F370DFE49B4CCF7A805EED /* Pods_MvcExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0835E8BACD421D4F5C48C3A7 /* Pods-MvcExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvcExample.debug.xcconfig"; path = "Target Support Files/Pods-MvcExample/Pods-MvcExample.debug.xcconfig"; sourceTree = "<group>"; };
 		2819CA25263B4D89004CD166 /* MvcExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvcExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2819CA28263B4D89004CD166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2819CA2A263B4D89004CD166 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2819CA2C263B4D89004CD166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2819CA2F263B4D89004CD166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2819CA2F263B4D89004CD166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VersionHistory.storyboard; sourceTree = "<group>"; };
 		2819CA31263B4D8A004CD166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2819CA34263B4D8A004CD166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2819CA36263B4D8A004CD166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819CA43263B4F26004CD166 /* VersionInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfoApi.swift; sourceTree = "<group>"; };
+		2819CA46263B501D004CD166 /* VersionInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfoService.swift; sourceTree = "<group>"; };
+		2819CA49263B53A8004CD166 /* VersionHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionHistoryController.swift; sourceTree = "<group>"; };
+		2819CA4D263B5B23004CD166 /* macos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = macos.json; sourceTree = "<group>"; };
+		2819CA50263B5C3A004CD166 /* VersionHistoryApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionHistoryApi.swift; sourceTree = "<group>"; };
+		286C11482640401F00612168 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		288D946926406B8D0077B711 /* Sierra_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sierra_logo.png; sourceTree = "<group>"; };
+		288D946A26406B8D0077B711 /* Lion_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lion_logo.png; sourceTree = "<group>"; };
+		288D946B26406B8E0077B711 /* HighSierra_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighSierra_logo.png; sourceTree = "<group>"; };
+		288D946C26406B8E0077B711 /* ElCapitan_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElCapitan_logo.png; sourceTree = "<group>"; };
+		288D946D26406B8E0077B711 /* Mojave_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mojave_logo.png; sourceTree = "<group>"; };
+		288D946E26406B8E0077B711 /* Mavericks_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mavericks_logo.png; sourceTree = "<group>"; };
+		288D946F26406B8E0077B711 /* SnowLeopard_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowLeopard_logo.png; sourceTree = "<group>"; };
+		288D947026406B8E0077B711 /* Panther_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Panther_logo.png; sourceTree = "<group>"; };
+		288D947126406B8E0077B711 /* MountainLion_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MountainLion_logo.png; sourceTree = "<group>"; };
+		288D947226406B8E0077B711 /* Yosemite_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yosemite_logo.png; sourceTree = "<group>"; };
+		288D947326406B8E0077B711 /* Tiger_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiger_logo.png; sourceTree = "<group>"; };
+		288D947426406B8E0077B711 /* Leopard_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leopard_logo.png; sourceTree = "<group>"; };
+		288D947526406B8E0077B711 /* Catalina_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Catalina_logo.png; sourceTree = "<group>"; };
+		289DFB5E264071E700D5FBC8 /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
+		289DFB64264088DD00D5FBC8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		28F370DFE49B4CCF7A805EED /* Pods_MvcExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MvcExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDA21C3E46B279396F0B077 /* Pods-MvcExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvcExample.release.xcconfig"; path = "Target Support Files/Pods-MvcExample/Pods-MvcExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8470A372D415223A3176B4D /* Pods_MvcExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +87,8 @@
 			children = (
 				2819CA27263B4D89004CD166 /* MvcExample */,
 				2819CA26263B4D89004CD166 /* Products */,
+				AA448199E01A0AC6C09CD4A4 /* Pods */,
+				3493CBBC664DC1213FF9E193 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,100 @@
 		2819CA27263B4D89004CD166 /* MvcExample */ = {
 			isa = PBXGroup;
 			children = (
-				2819CA28263B4D89004CD166 /* AppDelegate.swift */,
-				2819CA2A263B4D89004CD166 /* SceneDelegate.swift */,
-				2819CA2C263B4D89004CD166 /* ViewController.swift */,
-				2819CA2E263B4D89004CD166 /* Main.storyboard */,
-				2819CA31263B4D8A004CD166 /* Assets.xcassets */,
-				2819CA33263B4D8A004CD166 /* LaunchScreen.storyboard */,
+				286C114326403F4100612168 /* Assist */,
+				2819CA3E263B4DCC004CD166 /* View */,
+				2819CA3D263B4DC4004CD166 /* Model */,
+				2819CA3F263B4DDB004CD166 /* Controller */,
+				2819CA41263B4E75004CD166 /* LifeCycle */,
+				2819CA40263B4E0B004CD166 /* Resources */,
 				2819CA36263B4D8A004CD166 /* Info.plist */,
 			);
 			path = MvcExample;
+			sourceTree = "<group>";
+		};
+		2819CA3D263B4DC4004CD166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2819CA43263B4F26004CD166 /* VersionInfoApi.swift */,
+				2819CA46263B501D004CD166 /* VersionInfoService.swift */,
+				2819CA50263B5C3A004CD166 /* VersionHistoryApi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2819CA3E263B4DCC004CD166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				289DFB5E264071E700D5FBC8 /* VersionInfo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2819CA3F263B4DDB004CD166 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2819CA49263B53A8004CD166 /* VersionHistoryController.swift */,
+				289DFB64264088DD00D5FBC8 /* ImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2819CA40263B4E0B004CD166 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				288D947526406B8E0077B711 /* Catalina_logo.png */,
+				288D946C26406B8E0077B711 /* ElCapitan_logo.png */,
+				288D946B26406B8E0077B711 /* HighSierra_logo.png */,
+				288D947426406B8E0077B711 /* Leopard_logo.png */,
+				288D946A26406B8D0077B711 /* Lion_logo.png */,
+				288D946E26406B8E0077B711 /* Mavericks_logo.png */,
+				288D946D26406B8E0077B711 /* Mojave_logo.png */,
+				288D947126406B8E0077B711 /* MountainLion_logo.png */,
+				288D947026406B8E0077B711 /* Panther_logo.png */,
+				288D946926406B8D0077B711 /* Sierra_logo.png */,
+				288D946F26406B8E0077B711 /* SnowLeopard_logo.png */,
+				288D947326406B8E0077B711 /* Tiger_logo.png */,
+				288D947226406B8E0077B711 /* Yosemite_logo.png */,
+				2819CA4D263B5B23004CD166 /* macos.json */,
+				2819CA31263B4D8A004CD166 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2819CA41263B4E75004CD166 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				2819CA2A263B4D89004CD166 /* SceneDelegate.swift */,
+				2819CA2E263B4D89004CD166 /* VersionHistory.storyboard */,
+				2819CA33263B4D8A004CD166 /* LaunchScreen.storyboard */,
+				2819CA28263B4D89004CD166 /* AppDelegate.swift */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		286C114326403F4100612168 /* Assist */ = {
+			isa = PBXGroup;
+			children = (
+				286C11482640401F00612168 /* CommonUtils.swift */,
+			);
+			path = Assist;
+			sourceTree = "<group>";
+		};
+		3493CBBC664DC1213FF9E193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F370DFE49B4CCF7A805EED /* Pods_MvcExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA448199E01A0AC6C09CD4A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0835E8BACD421D4F5C48C3A7 /* Pods-MvcExample.debug.xcconfig */,
+				7CDA21C3E46B279396F0B077 /* Pods-MvcExample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +206,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2819CA39263B4D8A004CD166 /* Build configuration list for PBXNativeTarget "MvcExample" */;
 			buildPhases = (
+				2F8A8816CDACE62196D22EE6 /* [CP] Check Pods Manifest.lock */,
+				289CD8E226409EF10073CCA7 /* ShellScript */,
 				2819CA21263B4D89004CD166 /* Sources */,
 				2819CA22263B4D89004CD166 /* Frameworks */,
 				2819CA23263B4D89004CD166 /* Resources */,
@@ -125,33 +259,95 @@
 			buildActionMask = 2147483647;
 			files = (
 				2819CA35263B4D8A004CD166 /* LaunchScreen.storyboard in Resources */,
+				288D947626406B8E0077B711 /* Sierra_logo.png in Resources */,
+				288D947726406B8E0077B711 /* Lion_logo.png in Resources */,
+				288D947C26406B8E0077B711 /* SnowLeopard_logo.png in Resources */,
+				2819CA4E263B5B23004CD166 /* macos.json in Resources */,
+				288D947826406B8E0077B711 /* HighSierra_logo.png in Resources */,
 				2819CA32263B4D8A004CD166 /* Assets.xcassets in Resources */,
-				2819CA30263B4D89004CD166 /* Main.storyboard in Resources */,
+				288D947F26406B8E0077B711 /* Yosemite_logo.png in Resources */,
+				288D948026406B8E0077B711 /* Tiger_logo.png in Resources */,
+				288D947B26406B8E0077B711 /* Mavericks_logo.png in Resources */,
+				288D948126406B8E0077B711 /* Leopard_logo.png in Resources */,
+				288D947926406B8E0077B711 /* ElCapitan_logo.png in Resources */,
+				288D947D26406B8E0077B711 /* Panther_logo.png in Resources */,
+				2819CA30263B4D89004CD166 /* VersionHistory.storyboard in Resources */,
+				288D947A26406B8E0077B711 /* Mojave_logo.png in Resources */,
+				288D948226406B8E0077B711 /* Catalina_logo.png in Resources */,
+				288D947E26406B8E0077B711 /* MountainLion_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		289CD8E226409EF10073CCA7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		2F8A8816CDACE62196D22EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MvcExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2819CA21263B4D89004CD166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2819CA2D263B4D89004CD166 /* ViewController.swift in Sources */,
+				2819CA4A263B53A8004CD166 /* VersionHistoryController.swift in Sources */,
+				289DFB65264088DD00D5FBC8 /* ImageViewController.swift in Sources */,
+				2819CA47263B501D004CD166 /* VersionInfoService.swift in Sources */,
 				2819CA29263B4D89004CD166 /* AppDelegate.swift in Sources */,
+				2819CA44263B4F26004CD166 /* VersionInfoApi.swift in Sources */,
 				2819CA2B263B4D89004CD166 /* SceneDelegate.swift in Sources */,
+				2819CA51263B5C3A004CD166 /* VersionHistoryApi.swift in Sources */,
+				289DFB5F264071E700D5FBC8 /* VersionInfo.swift in Sources */,
+				286C11492640401F00612168 /* CommonUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2819CA2E263B4D89004CD166 /* Main.storyboard */ = {
+		2819CA2E263B4D89004CD166 /* VersionHistory.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2819CA2F263B4D89004CD166 /* Base */,
 			);
-			name = Main.storyboard;
+			name = VersionHistory.storyboard;
 			sourceTree = "<group>";
 		};
 		2819CA33263B4D8A004CD166 /* LaunchScreen.storyboard */ = {
@@ -283,6 +479,7 @@
 		};
 		2819CA3A263B4D8A004CD166 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0835E8BACD421D4F5C48C3A7 /* Pods-MvcExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +499,7 @@
 		};
 		2819CA3B263B4D8A004CD166 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDA21C3E46B279396F0B077 /* Pods-MvcExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,69 @@
+{
+	"systems": [
+		{
+			"codeName": "Panther",
+			"version": "10.3",
+			"logoImageName": "Panther_logo.png"
+		},
+		{
+			"codeName": "Tiger",
+			"version": "10.4",
+			"logoImageName": "???"
+		},
+		{
+			"codeName": "Leopard",
+			"version": "10.5",
+			"logoImageName": "Leopard_logo.png"
+		},
+		{
+			"codeName": "Snow Leopard",
+			"version": "10.6",
+			"logoImageName": "SnowLeopard_logo.png"
+		},
+		{
+			"codeName": "Lion",
+			"version": "10.7",
+			"logoImageName": "Lion_logo.png"
+		},
+		{
+			"codeName": "Mountain Lion",
+			"version": "10.8",
+			"logoImageName": "MountainLion_logo.png"
+		},
+		{
+			"codeName": "Mavericks",
+			"version": "10.9",
+			"logoImageName": "Mavericks_logo.png"
+		},
+		{
+			"codeName": "Yosemite",
+			"version": "10.10",
+			"logoImageName": "Yosemite_logo.png"
+		},
+		{
+			"codeName": "El Capitan",
+			"version": "10.11",
+			"logoImageName": "ElCapitan_logo.png"
+		},
+		{
+			"codeName": "Sierra",
+			"version": "10.12",
+			"logoImageName": "Sierra_logo.png"
+		},
+		{
+			"codeName": "High Sierra",
+			"version": "10.13",
+			"logoImageName": "HighSierra_logo.png"
+		},
+		{
+			"codeName": "Mojave",
+			"version": "10.14",
+			"logoImageName": "Mojave_logo.png"
+		},
+		{
+			"codeName": "Catalina",
+			"version": "10.15",
+			"logoImageName": "Catalina_logo.png"
+		}
+	]
+}
