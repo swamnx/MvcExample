@@ -2,6 +2,8 @@
 # platform :ios, '9.0'
 
 pod 'SwiftLint'
+pod 'Swinject'
+pod 'SwinjectStoryboard', :git => 'https://github.com/anuragajwani/SwinjectStoryboard'
 
 target 'MvcExample' do
   # Comment the next line if you don't want to use dynamic frameworks

@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct VersionInfoApi: Decodable, Encodable {
-    
+struct VersionInfoApi: Codable {
+
     let codeName: String
     let version: String
     let logoImageName: String

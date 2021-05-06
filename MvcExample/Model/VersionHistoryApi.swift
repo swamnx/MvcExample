@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct VersionHistoryApi: Decodable, Encodable {
+struct VersionHistoryApi: Codable {
     
     var systems: [VersionInfoApi]
 }

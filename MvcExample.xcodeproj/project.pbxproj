@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		2819CA32263B4D8A004CD166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA31263B4D8A004CD166 /* Assets.xcassets */; };
 		2819CA35263B4D8A004CD166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA33263B4D8A004CD166 /* LaunchScreen.storyboard */; };
 		2819CA44263B4F26004CD166 /* VersionInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA43263B4F26004CD166 /* VersionInfoApi.swift */; };
-		2819CA47263B501D004CD166 /* VersionInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA46263B501D004CD166 /* VersionInfoService.swift */; };
 		2819CA4A263B53A8004CD166 /* VersionHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA49263B53A8004CD166 /* VersionHistoryController.swift */; };
 		2819CA4E263B5B23004CD166 /* macos.json in Resources */ = {isa = PBXBuildFile; fileRef = 2819CA4D263B5B23004CD166 /* macos.json */; };
 		2819CA51263B5C3A004CD166 /* VersionHistoryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819CA50263B5C3A004CD166 /* VersionHistoryApi.swift */; };
@@ -31,6 +30,9 @@
 		288D948026406B8E0077B711 /* Tiger_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947326406B8E0077B711 /* Tiger_logo.png */; };
 		288D948126406B8E0077B711 /* Leopard_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947426406B8E0077B711 /* Leopard_logo.png */; };
 		288D948226406B8E0077B711 /* Catalina_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 288D947526406B8E0077B711 /* Catalina_logo.png */; };
+		288E0543264430C600A4A2FF /* VersionInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E0542264430C600A4A2FF /* VersionInfoService.swift */; };
+		288E05482644325000A4A2FF /* JsonVersionInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E05472644325000A4A2FF /* JsonVersionInfoService.swift */; };
+		288E054D264432D100A4A2FF /* DependecyInjectionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E054C264432D100A4A2FF /* DependecyInjectionConfig.swift */; };
 		289DFB5F264071E700D5FBC8 /* VersionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DFB5E264071E700D5FBC8 /* VersionInfo.swift */; };
 		289DFB65264088DD00D5FBC8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289DFB64264088DD00D5FBC8 /* ImageViewController.swift */; };
 		C8470A372D415223A3176B4D /* Pods_MvcExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F370DFE49B4CCF7A805EED /* Pods_MvcExample.framework */; };
@@ -46,7 +48,6 @@
 		2819CA34263B4D8A004CD166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2819CA36263B4D8A004CD166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2819CA43263B4F26004CD166 /* VersionInfoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfoApi.swift; sourceTree = "<group>"; };
-		2819CA46263B501D004CD166 /* VersionInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfoService.swift; sourceTree = "<group>"; };
 		2819CA49263B53A8004CD166 /* VersionHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionHistoryController.swift; sourceTree = "<group>"; };
 		2819CA4D263B5B23004CD166 /* macos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = macos.json; sourceTree = "<group>"; };
 		2819CA50263B5C3A004CD166 /* VersionHistoryApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionHistoryApi.swift; sourceTree = "<group>"; };
@@ -64,6 +65,9 @@
 		288D947326406B8E0077B711 /* Tiger_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiger_logo.png; sourceTree = "<group>"; };
 		288D947426406B8E0077B711 /* Leopard_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leopard_logo.png; sourceTree = "<group>"; };
 		288D947526406B8E0077B711 /* Catalina_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Catalina_logo.png; sourceTree = "<group>"; };
+		288E0542264430C600A4A2FF /* VersionInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfoService.swift; sourceTree = "<group>"; };
+		288E05472644325000A4A2FF /* JsonVersionInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonVersionInfoService.swift; sourceTree = "<group>"; };
+		288E054C264432D100A4A2FF /* DependecyInjectionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependecyInjectionConfig.swift; sourceTree = "<group>"; };
 		289DFB5E264071E700D5FBC8 /* VersionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionInfo.swift; sourceTree = "<group>"; };
 		289DFB64264088DD00D5FBC8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		28F370DFE49B4CCF7A805EED /* Pods_MvcExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MvcExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,8 +121,9 @@
 		2819CA3D263B4DC4004CD166 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				288E05462644321300A4A2FF /* Services */,
+				288E0541264430AC00A4A2FF /* Protocols */,
 				2819CA43263B4F26004CD166 /* VersionInfoApi.swift */,
-				2819CA46263B501D004CD166 /* VersionInfoService.swift */,
 				2819CA50263B5C3A004CD166 /* VersionHistoryApi.swift */,
 			);
 			path = Model;
@@ -178,8 +183,25 @@
 			isa = PBXGroup;
 			children = (
 				286C11482640401F00612168 /* CommonUtils.swift */,
+				288E054C264432D100A4A2FF /* DependecyInjectionConfig.swift */,
 			);
 			path = Assist;
+			sourceTree = "<group>";
+		};
+		288E0541264430AC00A4A2FF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				288E0542264430C600A4A2FF /* VersionInfoService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		288E05462644321300A4A2FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				288E05472644325000A4A2FF /* JsonVersionInfoService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		3493CBBC664DC1213FF9E193 /* Frameworks */ = {
@@ -211,6 +233,7 @@
 				2819CA21263B4D89004CD166 /* Sources */,
 				2819CA22263B4D89004CD166 /* Frameworks */,
 				2819CA23263B4D89004CD166 /* Resources */,
+				AA4ABA979FFF15E126B0742A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -320,6 +343,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AA4ABA979FFF15E126B0742A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MvcExample/Pods-MvcExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MvcExample/Pods-MvcExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MvcExample/Pods-MvcExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -327,14 +367,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288E054D264432D100A4A2FF /* DependecyInjectionConfig.swift in Sources */,
 				2819CA4A263B53A8004CD166 /* VersionHistoryController.swift in Sources */,
 				289DFB65264088DD00D5FBC8 /* ImageViewController.swift in Sources */,
-				2819CA47263B501D004CD166 /* VersionInfoService.swift in Sources */,
+				288E0543264430C600A4A2FF /* VersionInfoService.swift in Sources */,
 				2819CA29263B4D89004CD166 /* AppDelegate.swift in Sources */,
 				2819CA44263B4F26004CD166 /* VersionInfoApi.swift in Sources */,
 				2819CA2B263B4D89004CD166 /* SceneDelegate.swift in Sources */,
 				2819CA51263B5C3A004CD166 /* VersionHistoryApi.swift in Sources */,
 				289DFB5F264071E700D5FBC8 /* VersionInfo.swift in Sources */,
+				288E05482644325000A4A2FF /* JsonVersionInfoService.swift in Sources */,
 				286C11492640401F00612168 /* CommonUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

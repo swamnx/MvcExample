@@ -11,6 +11,8 @@ import UIKit
 class VersionHistoryController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var versionHistoryView: UITableView!
+    
+    var versionInfoService: VersionInfoService!
 
     var versionHistory: [VersionInfo]? {
         didSet {
@@ -24,7 +26,7 @@ class VersionHistoryController: UIViewController, UITableViewDelegate, UITableVi
         super.viewDidLoad()
         versionHistoryView.delegate = self
         versionHistoryView.dataSource = self
-        versionHistory = VersionInfoService.shared.loadVersionInfos()
+        versionHistory = versionInfoService.loadVersionInfos()
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -32,7 +34,7 @@ class VersionHistoryController: UIViewController, UITableViewDelegate, UITableVi
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: CommonUtils.versionInfoCellId, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: CommonUtils.VersionInfoIds.cell.rawValue, for: indexPath)
         let versionInfo = versionHistory?[indexPath.row]
         cell.textLabel?.text = versionInfo?.codeName
         cell.detailTextLabel?.text = versionInfo?.version
@@ -45,7 +47,7 @@ class VersionHistoryController: UIViewController, UITableViewDelegate, UITableVi
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == CommonUtils.fullImageSegueId else { return }
+        guard segue.identifier == CommonUtils.VersionInfoIds.fullInfoSegue.rawValue else { return }
         guard let destination = segue.destination as? ImageViewController else { return }
         guard let cellSender = sender! as? UITableViewCell else { return }
         destination.imageToShow = cellSender.imageView?.image

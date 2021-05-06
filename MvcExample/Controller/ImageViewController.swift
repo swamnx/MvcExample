@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 class ImageViewController: UIViewController {
-    
+
     @IBOutlet weak var versionImage: UIImageView!
 
     var imageToShow: UIImage?
